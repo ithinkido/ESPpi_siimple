@@ -1,0 +1,20 @@
+{
+    "name": "Squeezelite-ESP32 i2s 4M-Flash 16",
+    "builds": [
+      {
+        "chipFamily": "ESP32",
+        "improv": false,
+        "new_install_prompt_erase": false,
+        "parts": [
+          { "path": "bootloader.bin", "offset": 4096 },
+          { "path": "partition-table.bin", "offset": 32768 },
+          { "path": "ota_data_initial.bin", "offset": 53248 },                  
+          { "path": "recovery.bin", "offset": 65536 },
+          { "path": "squeezelite_i2s_16.bin", "offset": 1376256 }
+        ]
+      }
+    ]
+  }
+
+
+  

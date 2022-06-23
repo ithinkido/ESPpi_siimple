@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "ESPpi")(type "KiCad")(uri "${KIPRJMOD}/ESPpi.pretty")(options "")(descr ""))
+)
